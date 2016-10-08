@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/darky"
+
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Enter password category"
+        android:layout_gravity="center"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/textView12"
+        android:textSize="28dp"
+        android:layout_marginTop="25dp"
+        android:layout_weight="0.12"
+
+        android:layout_centerHorizontal="true"
+        android:textColor="#fdd14e85"
+         />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="40dp"
+        android:id="@+id/editText4"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="30dp"
+        android:hint="Category"
+        android:gravity="center"
+
+        android:background="@drawable/shape"
+        android:layout_alignBottom="@+id/button2"
+         />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:background="@drawable/rbutton"
+        android:layout_below="@+id/textView12"
+        android:src="@drawable/search"
+
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="33dp"
+
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(eg : Google, Facebook, Outlook, LinkedIn, etc.)"
+        android:id="@+id/textView15"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editText4"
+        android:layout_marginLeft="60dp"
+
+        android:layout_alignParentStart="true"
+        android:textColor="#fdd14e85"
+        android:textStyle="bold" />
+
+
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+
+        android:layout_below="@+id/editText4"
+         />
+
+
+
+</RelativeLayout>

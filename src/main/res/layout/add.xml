@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/darky"
+
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="36sp"
+        android:id="@+id/editText2"
+        android:hint="Password"
+        android:inputType="textPassword"
+android:gravity="center"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:layout_marginRight="10dp"
+        android:layout_alignStart="@+id/editText3"
+        android:fontFamily="@string/abc_action_bar_home_description" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:hint="Category"
+        android:gravity="center"
+        android:layout_height="36sp"
+        android:id="@+id/editText3"
+        android:background="@drawable/shape"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textView14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password"
+        android:id="@+id/textView13"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#fdd14e85"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Password Category"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#fdd14e85"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Confirm password"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/textView11"
+        android:layout_below="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:textColor="#fdd14e85"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="36dp"
+        android:id="@+id/editText4"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="20sp"
+        android:inputType="textPassword"
+        android:gravity="center"
+        android:hint="Confirm Password"
+        android:layout_below="@+id/textView11"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/editText2"
+
+        android:fontFamily="@string/abc_action_bar_home_description" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password Details"
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView14"
+        android:textSize="34sp"
+        android:textColor="#fdd14e85"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColorHighlight="#cfcbcb"
+        android:textStyle="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="(eg : Google, Facebook, Outlook, LinkedIn, etc.)"
+        android:id="@+id/textView15"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/editText3"
+        android:layout_marginTop="10dp"
+        android:layout_alignEnd="@+id/editText3"
+        android:textColor="#cfcbcb"
+        android:shadowColor="#cfcbcb" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Add Password"
+        android:textAllCaps="false"
+        android:layout_marginTop="30sp"
+
+        android:id="@+id/button3"
+        android:background="@drawable/rbutton"
+        android:src="@drawable/arrow"
+        android:backgroundTint="@color/accent_material_light"
+
+        android:layout_below="@+id/editText4"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+
+        android:gravity="center"
+        android:layout_height="160dp"
+        android:padding="20sp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:textSize="20dp"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/textView12"
+        android:layout_alignStart="@+id/textView15"
+        android:textColor="#fdd14e85"
+         />
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/l"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+
+         />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignTop="@+id/editText3"
+        android:layout_above="@+id/textView13"
+        android:gravity="center"
+
+        android:paddingLeft="110dp"
+        android:background="@drawable/shape"
+        android:layout_alignStart="@+id/editText3"
+        android:layout_alignEnd="@+id/editText3" />
+
+</RelativeLayout>

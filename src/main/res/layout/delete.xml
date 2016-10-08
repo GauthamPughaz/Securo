@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/darky">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Type your password category"
+        android:textColor="#fdd14e85"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="55dp"
+        android:id="@+id/textView12"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="250dp"
+        android:hint="Category"
+        android:gravity="center"
+        android:layout_height="36sp"
+        android:id="@+id/editText3"
+        android:background="@drawable/shape"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="65dp"
+        android:layout_below="@+id/textView12"
+        android:layout_alignParentEnd="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="disp"
+        android:textColor="#fdd14e85"
+        android:gravity="center"
+        android:id="@+id/delete"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:layout_width="40dp"
+
+        android:layout_height="40dp"
+        android:id="@+id/imageButton2"
+
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="-2dp"
+
+        android:background="@drawable/rbutton1"
+        android:src="@drawable/search"
+
+        android:layout_alignTop="@+id/editText3"
+        android:layout_alignParentEnd="true" />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Add Password"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20sp"
+        android:layout_marginLeft="80sp"
+
+        android:id="@+id/yes"
+        android:background="@drawable/rbutton"
+        android:src="@drawable/delete"
+
+
+        android:layout_alignParentBottom="true"
+         />
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Add Password"
+        android:textAllCaps="false"
+        android:layout_marginLeft="145sp"
+        android:id="@+id/del"
+        android:background="@drawable/rbutton"
+        android:src="@drawable/checkmark"
+
+
+        android:layout_alignTop="@+id/yes"
+        android:layout_alignStart="@+id/textView16" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Move to trash"
+        android:textColor="#fdd14e85"
+        android:textSize="30sp"
+        android:layout_marginTop="40sp"
+        android:id="@+id/textView16"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Type your password category"
+        android:textColor="#fdd14e85"
+        android:layout_marginTop="35dp"
+
+        android:gravity="center"
+        android:id="@+id/message"
+        android:textSize="26sp"
+        android:layout_below="@+id/delete"
+        android:layout_alignStart="@+id/delete"
+         />
+
+    <ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="25dp"
+        android:src="@drawable/del"
+
+        android:id="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/message"
+        />
+
+    ImageView
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:src="@drawable/delete70"
+        android:layout_marginLeft="80sp"
+        android:id="@+id/imageView5"
+        android:layout_marginTop="24dp"
+
+        android:layout_below="@+id/message"
+        android:layout_alignEnd="@+id/yes" />
+
+</RelativeLayout>
