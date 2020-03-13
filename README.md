@@ -1,2 +1,2 @@
 # Securo
-A basic android application powered by Twitter fabric and Youtube APIs, published in Google Play Store to help the people suffering from Obesity by providing information, tips, and tools.
+A simple android application to securely store passwords of online accounts with user’s fingerprint and the 128-bit AES encryption technique.
